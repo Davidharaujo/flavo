@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-product {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.container-product img {
+    height: 300px;
+    width: 250px;
+    margin: auto;
+}
+
+.prd-info {
+    display: flex;
+    width: 90%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.price {
+    font-size: 25px;
+    letter-spacing: -5px;
+    font-weight: bold;
+}
+
+.container-product h3 {
+    margin-bottom: 5px;
+}
+
+.container-product p {
+    margin-bottom: 15px;
+}
+
+.prd-option {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.prd-qtd {
+    display: flex;
+    align-self: center;
+    border: solid 1px;
+    border-radius: 100px;
+    height: 30px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.prd-qtd button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.prd-qtd p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.add {
+    width: 90%;
+    align-self: center;
+    margin-right: 15px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+
+.add:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
